@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3934608068
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 90f1ea779340072724b05702266e2391
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 06b3c4882d380e5fe8ce10e0f2e14683
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/eden_soundeffects/RadioChatter/Colonists/Eden_RadioChatterColonistCiv1.prefab
+Dependencies: []

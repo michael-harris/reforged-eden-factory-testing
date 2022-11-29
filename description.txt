@@ -1,0 +1,5 @@
+[b]Reforged Eden[/b] for [b]Empyrion 1.8[/b] (build 36)
+[c][ffff00]WORK IN PROGRESS[-][/c] - Many features are incomplete.
+This scenario combines the Reforged Galaxy and Project Eden scenarios and contains a massive amount of new content.
+Greatly changes the pacing and difficulty of the game.
+[i][c][ffffff]Please see the Workshop or the Empyriopedia section of the PDA for more info.[-][/c][/i]
