@@ -1382,6 +1382,8 @@
 }
 { +Template Name: CPUExtenderHVT4
   CraftTime: 120 #A4 1
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 24
@@ -1420,6 +1422,8 @@
 }
 { +Template Name: CPUExtenderSVT4
   CraftTime: 250 #A4 1
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 24
@@ -1458,6 +1462,8 @@
 }
 { +Template Name: CPUExtenderCVT4
   CraftTime: 400 #A4 1
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 36
@@ -1496,6 +1502,8 @@
 }
 { +Template Name: CPUExtenderBAT4
   CraftTime: 400 #A4 1
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 36
@@ -1774,7 +1782,9 @@
 }
 
 { +Template Name: DetectorCVT2
-  CraftTime: 30  
+  CraftTime: 30
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Oscillator: 48
@@ -1868,6 +1878,8 @@
 }
 { +Template Name: RepairBayConsole
   CraftTime: 40 #D1 12
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Computer: 12
@@ -1881,6 +1893,8 @@
 }
 { +Template Name: RepairBayBA
   CraftTime: 40 #D1 12
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     PowerCoil: 8
@@ -1894,6 +1908,8 @@
 }
 { +Template Name: RepairBayBAT2
   CraftTime: 80 #D1 12
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 16
@@ -1907,6 +1923,8 @@
 
 { +Template Name: RepairBayCV
   CraftTime: 50 #D1 12
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     PowerCoil: 8
@@ -1920,6 +1938,8 @@
 }
 { +Template Name: RepairBayCVT2
   CraftTime: 80 #D1 12
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     TitanPlates: 28
@@ -2465,7 +2485,8 @@
 
 { +Template Name: SolarPanelBlocksT2
   CraftTime: 20 #A1 Ba CV 1
-  Target: "AdvC"
+  BaseItem: true
+  DeconOverride: Continue
   { Child Inputs
     GlassPlate: 40
     SteelPlate: 24
@@ -2633,6 +2654,8 @@
 
 { +Template Name: FuelTankMSLargeT2
   CraftTime: 25 #C2 Ba CV 15
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     Electronics: 24
@@ -2664,6 +2687,8 @@
 
 { +Template Name: GeneratorMST2
   CraftTime: 100 #D1 Ba CV 15
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     MechanicalComponents: 120
@@ -2681,6 +2706,8 @@
 
 { +Template Name: FusionReactorLarge
   CraftTime: 600 #D1 Ba CV 15
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ReactorCore: 1
@@ -2696,6 +2723,8 @@
 
 { +Template Name: GravityGeneratorMS
   CraftTime: 30 #C2 Ba CV 7
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Motor: 4
@@ -2724,7 +2753,9 @@
 }
 
 { +Template Name: TeleporterBA
-  CraftTime: 250 
+  CraftTime: 250
+  BaseItem: true
+  DeconOverride: Continue 
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 12
@@ -2737,7 +2768,9 @@
 }
 
 { +Template Name: TeleporterCV
-  CraftTime: 125 
+  CraftTime: 125
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 8
@@ -2764,6 +2797,8 @@
 }
 { +Template Name: ShieldCapacitorLarge
   CraftTime: 20 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 16
@@ -2777,6 +2812,8 @@
 }
 { +Template Name: ShieldCapacitorT2Large
   CraftTime: 60 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 48
@@ -2790,6 +2827,8 @@
 }
 { +Template Name: ShieldCapacitorT3Large
   CraftTime: 180 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 144
@@ -2803,6 +2842,8 @@
 }
 { +Template Name: ShieldChargerLarge
   CraftTime: 20 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 40
@@ -2815,6 +2856,8 @@
 }
 { +Template Name: ShieldChargerT2Large
   CraftTime: 60 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 120
@@ -2827,6 +2870,8 @@
 }
 { +Template Name: ShieldChargerT3Large
   CraftTime: 180 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 240
@@ -2851,6 +2896,8 @@
 }
 { +Template Name: ShieldGeneratorBA
   CraftTime: 90 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 12
@@ -2864,7 +2911,9 @@
 }
 { +Template Name: ShieldGeneratorBAT2
   CraftTime: 135 #C2 CV 10
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 16
     Oscillator: 24
@@ -2878,6 +2927,8 @@
 }
 { +Template Name: ShieldGeneratorCV
   CraftTime: 90 #C2 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 12
@@ -2891,7 +2942,9 @@
 }
 { +Template Name: ShieldGeneratorCVT2
   CraftTime: 135 #C2 CV 10
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 16
     Oscillator: 24
@@ -2943,7 +2996,9 @@
 
 { +Template Name: ShieldGeneratorSV
   CraftTime: 70 #B1 SV
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 4
     Oscillator: 16
@@ -2957,7 +3012,9 @@
 
 { +Template Name: ShieldGeneratorSVT2
   CraftTime: 90 #B1 SV
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 12
     Oscillator: 32
@@ -2986,7 +3043,9 @@
 }
 { +Template Name: ShieldGeneratorHVT2
   CraftTime: 70 #B1 SV
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 4
     Oscillator: 16
@@ -3408,6 +3467,8 @@
 
 { +Template Name: ThrusterJetRound3x10x3
   CraftTime: 45 #B1 SV 17
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Motor: 12
@@ -3422,6 +3483,8 @@
 }
 { +Template Name: ThrusterJetRound3x10x3V2
   CraftTime: 45 #B1 SV 17
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Motor: 12
@@ -3437,6 +3500,8 @@
 
 { +Template Name: ThrusterJetRound3x13x3
   CraftTime: 50 #B1 SV 20
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Motor: 12
@@ -3451,6 +3516,8 @@
 }
 { +Template Name: ThrusterJetRound3x13x3V2
   CraftTime: 50 #B1 SV 20
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     Motor: 12
@@ -3568,35 +3635,39 @@
 
 { +Template Name: ThrusterMSRound2x2Blocks
   CraftTime: 50  #D1 CV 15
-  Target: AdvC
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     Motor: 48
     SteelPlateArmored: 32
-	MechanicalComponents: 80
-	Electronics: 48
-	Computer: 12
+	  MechanicalComponents: 80
+	  Electronics: 48
+	  Computer: 12
     OpticalFiber: 32
     Oscillator: 40
     PowerCoil: 8
-	EnergyMatrix: 8
-	ZascosiumAlloy: 40
+	  EnergyMatrix: 8
+	  ZascosiumAlloy: 40
   }
 }
 
 { +Template Name: ThrusterMSRound3x3Blocks
   CraftTime: 55  #D1 CV 20
-  Target: AdvC
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     Motor: 60
     SteelPlateArmored: 48
-	MechanicalComponents: 100
-	Electronics: 72
-	Computer: 16
+	  MechanicalComponents: 100
+	  Electronics: 72
+	  Computer: 16
     OpticalFiber: 40
     Oscillator: 56
     PowerCoil: 16
-	EnergyMatrix: 16
-	ZascosiumAlloy: 80
+	  EnergyMatrix: 16
+	  ZascosiumAlloy: 80
   }
 }
 
@@ -3607,7 +3678,7 @@
     EnergyMatrix: 4
     Electronics: 12
     Motor: 12
-	Computer: 8
+	  Computer: 8
     SteelPlate: 24
     Oscillator: 16
   }
@@ -3615,6 +3686,8 @@
 
 { +Template Name: RCSBlockMS_T2
   CraftTime: 60 #C1 CV 10
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 8
@@ -4396,6 +4469,8 @@
 
 { +Template Name: WeaponSV03 #"Pulse Laser"
   CraftTime: 24 #D1 SV 20 uses "PulseLaserChargeSS"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 48
@@ -4409,6 +4484,8 @@
 
 { +Template Name: WeaponSV04 #"Plasma Cannon"
   CraftTime: 24 #D1 20 
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 52
@@ -4448,7 +4525,9 @@
 
 { +Template Name: WeaponSV06 #"Pulse Laser T2"
   CraftTime: 48 #D1 SV 20 uses "PulseLaserChargeSST2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 64
     Electronics: 24
@@ -4463,7 +4542,9 @@
 
 { +Template Name: WeaponSV07 #"Heavy Gatling Gun"
   CraftTime: 48 #A2 HV SV 3 uses "20mmBullet"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     MechanicalComponents: 48
     Electronics: 16
@@ -4477,6 +4558,8 @@
 
 { +Template Name: WeaponSV08
   CraftTime: 90 #D1 20  uses "SVBomb"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 32
@@ -4504,7 +4587,9 @@
 
 { +Template Name: WeaponSV10
   CraftTime: 120 #D1 20  uses "TorpedoSV"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 52
 	SteelPlateArmored: 28
@@ -4526,7 +4611,7 @@
     MechanicalComponents: 32
     PowerCoil: 2
     ZascosiumAlloy: 16
-	Motor: 4
+	  Motor: 4
     SmallUpgradeKit: 1
   }
 }
@@ -4534,11 +4619,13 @@
 /* Artillery Cannon CV*/
 { +Template Name: WeaponMS01 #"Artillery Cannon"
   CraftTime: 24 #D1 CV 20 uses "LargeRocketMS"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 50
     Electronics: 20
-	MechanicalComponents: 60
+	  MechanicalComponents: 60
     Oscillator: 20
     PowerCoil: 8
 	SteelPlateArmored: 48
@@ -4548,6 +4635,8 @@
 /* Pulse Laser CV*/
 { +Template Name: WeaponMS02 #"Pulse Laser"
   CraftTime: 30 #D1 25 uses "PulseLaserChargeMSWeapon"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 76
@@ -4562,6 +4651,8 @@
 /* Rocket Launcher CV*/
 { +Template Name: WeaponMS03 #"Rocket Launcher"
   CraftTime: 30 #D1 CV 20 uses "FastRocket"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 48
@@ -4575,6 +4666,8 @@
 
 { +Template Name: WeaponMS04 #"Positron Cannon"
   CraftTime: 30 #D1 CV 15 uses "HeatSinkLarge"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 64
@@ -4619,6 +4712,8 @@
 /* Plasma Turret */
 { +Template Name: TurretMSLaserBlocks #"Plasma Turret"
   CraftTime: 30 #D1 CV 15 uses "TurretMSPlasmaCharge"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 48
@@ -4633,6 +4728,8 @@
 
 { +Template Name: TurretMSBeamLaserBlocks #"Positron Beam Turret"
   CraftTime: 30 #D1 CV 15 uses "HeatSinkLarge"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 40
@@ -4648,6 +4745,8 @@
 
 { +Template Name: TurretBaseLaserBlocks
   CraftTime: 24 #D1 20 uses "PulseLaserChargeBA"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 48
@@ -4662,6 +4761,8 @@
 
 { +Template Name: TurretBABeamLaserBlocks #"Positron Beam Turret"
   CraftTime: 20 #D1 CV 15 uses "HeatSinkLarge"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 40
@@ -4677,6 +4778,8 @@
 
 { +Template Name: TurretMSArtilleryBlocks
   CraftTime: 30 #D1 CV 25 uses "LargeRocketMS"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     SteelPlateArmored: 75
@@ -4690,6 +4793,8 @@
 
 { +Template Name: TurretBaseArtilleryBlocks
   CraftTime: 24 #D1 25 uses "LargeRocket"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     SteelPlateArmored: 75
@@ -4755,15 +4860,17 @@
 
 { +Template Name: TurretMSProjectileBlocksT2
   CraftTime: 60 #C1 CV 10 uses "20mmBullet"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     MechanicalComponents: 64
     Electronics: 32
     Motor: 16
     SteelPlateArmored: 64
     Oscillator: 40
-	Computer: 8
-	CobaltAlloy: 48
+	  Computer: 8
+	  CobaltAlloy: 48
     ZascosiumIngot: 16
     LargeUpgradeKit: 1
   }
@@ -4772,7 +4879,9 @@
 
 { +Template Name: TurretBaseProjectileBlocksT2
   CraftTime: 48 #B1 Ba 10 uses "20mmBullet"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     MechanicalComponents: 48
     Electronics: 32
@@ -4789,7 +4898,9 @@
 
 { +Template Name: TurretMSRocketBlocksT2
   CraftTime: 72 #D1 CV 15 uses "FlakRocketMST2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     TitanPlates: 64
     SteelPlateArmored: 64
@@ -4807,7 +4918,9 @@
 
 { +Template Name: TurretBaseRocketBlocksT2
   CraftTime: 60 #C2 5 uses FastRocketBA
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     TitanPlates: 32
     SteelPlateArmored: 32
@@ -4825,7 +4938,9 @@
 
 { +Template Name: TurretMSLaserBlocksT2 #"Plasma Turret"
   CraftTime: 72 #D1 CV 15 uses "TurretMSPlasmaChargeT2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 120
     Oscillator: 40
@@ -4842,7 +4957,9 @@
 
 { +Template Name: TurretBaseLaserBlocksT2
   CraftTime: 60 #D1 20 uses "PulseLaserChargeBAT2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 104
     Oscillator: 40
@@ -4859,7 +4976,9 @@
 
 { +Template Name: TurretMSArtilleryBlocksT2
   CraftTime: 100 #D1 CV 25 uses "ArtilleryShellCVT2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 250
     PowerCoil: 20
@@ -4876,7 +4995,9 @@
 
 { +Template Name: TurretBaseArtilleryBlocksT2
   CraftTime: 90 #D1 25 uses "ArtilleryShellBAT2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     SteelPlateArmored: 240
     PowerCoil: 20
@@ -4893,16 +5014,18 @@
 
 { +Template Name: TurretMSBeamLaserBlocksT2 #"Heavy Positron Beam Turret"
   CraftTime: 90 #D1 CV 15 uses "HeatSinkLarge"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 100
     Oscillator: 40
     Motor: 10
     Computer: 24
     PowerCoil: 4
-	CapacitorComponent: 16
-	EnergyMatrix: 16
-	Superconductor: 8
+	  CapacitorComponent: 16
+	  EnergyMatrix: 16
+	  Superconductor: 8
     LargeUpgradeKit: 1
     AdvancedUpgradeKit: 1
   }
@@ -4910,16 +5033,18 @@
 
 { +Template Name: TurretBABeamLaserBlocksT2 #"Heavy Positron Beam Turret"
   CraftTime: 90 #D1 BA 15 uses "HeatSinkLarge"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 100
     Oscillator: 40
     Motor: 10
     Computer: 20
     PowerCoil: 4
-	CapacitorComponent: 16
-	EnergyMatrix: 16
-	Superconductor: 6
+	  CapacitorComponent: 16
+	  EnergyMatrix: 16
+	  Superconductor: 6
     LargeUpgradeKit: 1
     AdvancedUpgradeKit: 1
   }
@@ -4933,8 +5058,8 @@
     PowerCoil: 24
     Motor: 20
     ZascosiumAlloy: 200
-	PlatinOunce: 100
-	XenoSubstrate: 100
+	  PlatinOunce: 100
+	  XenoSubstrate: 100
   }
 }
 
@@ -4970,6 +5095,8 @@
 
 { +Template Name: TurretGVPlasmaBlocks #"Plasma Turret"
   CraftTime: 24 #D1 HV 15 uses"TurretGVPlasmaCharge"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 25
@@ -4998,6 +5125,8 @@
 
 { +Template Name: TurretGVBeamLaserBlocks #"Positron Beam Turret"
   CraftTime: 20 #D1 CV 15 uses "HeatSinkSmall"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 32
@@ -5011,8 +5140,10 @@
   }
 }
 
-{ +Template Name: TurretGVArtilleryBlocks #Artillery Turret"
+{ +Template Name: TurretGVArtilleryBlocks #"Artillery Turret"
   CraftTime: 30 #D1 20  uses "ArtilleryRocket"
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 48
@@ -5027,6 +5158,8 @@
 
 { +Template Name: TurretGVToolBlocks
   CraftTime: 30 #D1 HV 15
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 12
@@ -5043,6 +5176,8 @@
 
 { +Template Name: TurretMSToolBlocks
   CraftTime: 30 #D1 20 
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     ZascosiumAlloy: 52
@@ -5058,7 +5193,9 @@
 
 { +Template Name: TurretSVPulseLaserT2
   CraftTime: 48 #A2 5 "PulseLaserChargeSST2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 80
     Oscillator: 32
@@ -5074,7 +5211,9 @@
 
 { +Template Name: TurretGVBeamLaserBlocksT2 #"Heavy Positron Beam Turret"
   CraftTime: 48 #D1 CV 15 uses "HeatSinkSmall"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 56
     Oscillator: 24
@@ -5090,7 +5229,9 @@
 
 { +Template Name: TurretGVProjectileBlocksT2 #"Heavy Minigun Turret"
   CraftTime: 48 #A2 5 "20mmBullet"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     SteelPlate: 28
     TitanPlates: 32
@@ -5105,7 +5246,9 @@
 
 { +Template Name: TurretGVRocketBlocksT2 #"Heavy Rocket Turret"
   CraftTime: 48 #A2 HV 10 SwarmRocketHV
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     MechanicalComponents: 40
 	SteelPlate: 24
@@ -5121,7 +5264,9 @@
 
 { +Template Name: TurretGVPlasmaBlocksT2 #"Heavy Plasma Turret"
   CraftTime: 48 #D1 HV 15 uses"TurretGVPlasmaChargeT2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 48
 	SteelPlateArmored: 32
@@ -5135,9 +5280,11 @@
   }
 }
 
-{ +Template Name: TurretGVArtilleryBlocksT2 #Heavy Artillery Turret"
+{ +Template Name: TurretGVArtilleryBlocksT2 #"Heavy Artillery Turret"
   CraftTime: 60 #D1 20  uses "ArtilleryShellHVT2"
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 64
 	SteelPlateArmored: 64
@@ -5538,6 +5685,8 @@
 { +Template Name: FastRocketMS
   OutputCount: 6 #D1 12 for "TurretMSRocket"
   CraftTime: 5
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     SteelPlate: 8
@@ -5911,6 +6060,8 @@
 { +Template Name: HeavyRocketMS
   OutputCount: 4 #D1 12 for "TurretMSRocket"
   CraftTime: 7
+  BaseItem: true
+  DeconOverride: Continue
   Target: AdvC
   { Child Inputs
     TitanPlates: 8
@@ -7147,7 +7298,7 @@
   }
 }
 { +Template Name: SmallOptronicMatrix
-  BaseItem: true 
+  BaseItem: true
   CraftTime: 120
   Target: "AdvC"
   { Child Inputs
@@ -7376,7 +7527,9 @@
 # ======= New Stuff =======
 { +Template Name: WarpDriveT2
   CraftTime: 190 #C2 CV 10
-  Target: ""
+  BaseItem: true
+  DeconOverride: Continue
+  Target: "AdvC"
   { Child Inputs
     EnergyMatrix: 50
     Electronics: 64
@@ -8189,6 +8342,8 @@
 
 { +Template Name: Eden_BlasterCV # Heavy Blaster Cannon
   CraftTime: 30
+  BaseItem: true
+  DeconOverride: Continue
   Target: "AdvC"
   { Child Inputs
     ZascosiumAlloy: 150
@@ -8225,6 +8380,7 @@
 
 { +Template Name: Eden_RailgunCVSpinal_Kit
   OutputCount: 1
+  BaseItem: true
   DeconOverride: Continue
   CraftTime: 60
   Target: "AdvC"
